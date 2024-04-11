@@ -1,0 +1,140 @@
+body {
+    margin: none;
+    padding: none;
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    src: url("fonts/source-sans-pro/");
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.header-row img {}
+
+.header-row .navigation {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.navigation a {
+    margin-right: 53px;
+}
+
+.banner {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+.banner-title {
+    text-align: center;
+    font-family: source-sans-pro;
+}
+
+.banner-title h1 {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.banner-title p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner-title button {
+    font-size: 14px;
+    font-weight: semibold;
+}
+
+.pros {}
+
+.pros h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.emphasis {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.pros .people {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pros .people .people-container {
+    text-align: center;
+}
+
+.pros .people h3 {
+    font-size: 18px;
+}
+
+.pros .people p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.quote {
+    background-color: #C271FF;
+    color: #FFF;
+    font-family: source-sans-pro;
+}
+
+.quote .quote-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video .video-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.membership {
+    background-color: #071629;
+    align-items: center;
+    color: #FFF;
+}
+
+.membership .membership-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #C271FF;
+    color: #FFF;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.faq .faq-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq-answer h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faq-answer p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #071629;
+}
